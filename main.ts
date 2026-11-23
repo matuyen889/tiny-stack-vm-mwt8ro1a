@@ -1,6 +1,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
+// Core limits & specifications
 const STACK_MAX = 256;
 const CALLS_MAX = 64;
 const MEMORY_WORDS = 256;
